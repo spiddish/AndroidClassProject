@@ -1,0 +1,16 @@
+We have five screens:
+
+1.	You turn the app on and it shows you your location on a map.  There is a dot for your gps and pin, if you want to move your location.  It looks similar to the uber app experience.  You after placing the pin, where you want you’d submit the location.
+2.	A set of setting pop up about the room you’d like.  After selecting you press submit and the app sends a request to a server to get rooms that meet the requirements.  Server returns a sorted list of rooms that meet the requirements. 
+        a.	Number of people
+        b.	Projector?
+        c.	Conference phone?
+        d.	Time (defaults to current time)
+        e.	Date (defaults to current time)
+3.	A list of rooms is displayed with information about each that were returned from step 2.  A room is touched to select.
+4.	Confirmation page is shown letting you know all the details about the booked room.
+5.	Outside the booking flow, it allows you to see your bookings.
+
+Other options could include inviting other people, checking availability of their schedule, etc.  Although the main goal is being able to book a room “right now”.  This isn’t as much for longterm booking.
+
+Michael and Ram
